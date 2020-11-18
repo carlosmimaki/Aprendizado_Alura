@@ -1,0 +1,56 @@
+<!DOCTYPE>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+
+<title>Formulários</title>
+	<link rel="stylesheet" href="cssformularios.css"/>
+	<link href="cssfomularios.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body>
+	<h2>Cadastre-se</h2>
+	<form action="exemplologin.html" method=post>
+		<label>E-mail</label>
+		<br>
+		<input type="email" name="E-mail"/>
+		<br>
+		<label>Usuário</label>
+		<br>
+		<input type="text" name="Usuário"/>
+		<br>
+		<label>Senha</label>
+		<br>		
+		<input type="password" name="Senha"/>
+		<br><br>
+		<input type="radio" name="sexo"/>
+		<label>Masculino</label>
+		<br>
+		<input type="radio" name="sexo"/>
+		<label>Feminino</label>
+		<br><br>
+		<label>Descrição:<br>
+			<textarea name="descricao"></textarea>
+		</label>
+		<br><br>
+		<label>
+			Categoria:<br>
+			<select name="Categoria">
+				<option value="1">Categoria 1</option>
+				<option value="2">Categoria 2</option>
+				<option value="3">Categoria 3</option>
+				<option value="4">Categoria 4</option>
+				<option value="5">Categoria 5</option>
+			</select>
+		</label>
+		<br><br>
+		<input type="checkbox" id="teste"/>
+			<label for="teste">Aceito os <a href="termos.html" target="_blank" class="termoslink">termos e condições</a>
+			</label>
+			<br><br>
+		<input type="submit" name="Enviar"/><br>
+	</form>

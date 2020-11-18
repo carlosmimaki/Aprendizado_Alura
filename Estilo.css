@@ -1,0 +1,52 @@
+/* CSS Document */
+
+
+.link {
+
+	color: #FF0000;
+	font-size:30px;
+	
+	}
+	
+	.link:hover{  
+	
+	color: #009900;
+	font-size: 36px;
+	
+	}
+	
+	/*.link:visited{  
+	
+	color: #000000;
+	font-size: 36px;
+	
+	}*/
+
+*{	
+	box-sizing: /*content-box;*/ border-box;
+	
+	}
+
+.exemplo { 
+			
+		border: 5px solid #0000CC;
+		/*padding-left: 10px;*/
+		padding: 10px;
+		/*margin: 0px*/;
+		margin: 20px;
+		background-color:#CCCCFF;
+		width: 400px;
+		height: 400px;
+		
+		}
+
+body{ margin: 50px;
+	  height: auto;
+	  font-size:18px;
+	}
+
+/*img {width: inherit;
+	max-width: 400px;
+	min-width: 300px;
+	}
+*/

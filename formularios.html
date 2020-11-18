@@ -1,0 +1,167 @@
+<!DOCTYPE>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+
+<title>Formulários</title>
+	<link rel="stylesheet" href="estilo.css"/>
+	<link href="estilotexto.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body>
+	<h2>Cadastre-se</h2>
+	<form action="exemplologin.html" method=post>
+		<label>E-mail</label><br>
+		<input type="email" name="E-mail"/><br>
+		<label>Usuário</label><br>
+		<input type="text" name="Usuário"/><br>
+		<label>Senha</label><br>		
+		<input type="password" name="Senha"/><br>
+		<input type="radio" name="sexo"/><label>Masculino</label><br>
+		<input type="radio" name="sexo"/><label>Feminino</label><br>		
+		<input type="checkbox"/><label>Aceito os termos e condições</label><br>
+		<input type="submit" name="Enviar"/><br>
+	</form>
+		
+		<hr>
+	<form action="" method=post>
+		<h3>INPUT</h3>
+		<br>
+		Exemplo de paleta de cor
+		<br>
+		<label>Selecione a cor na paleta</label>
+		<br>
+		<input type="color" name="cor"/><br>
+				
+		<br>
+		Exemplo de input de campo com máscara de data
+		<br>
+		<label>Selecione a data</label>
+		<br>
+		<input type="date" name="data"/>
+		
+		<br>
+		Exemplo de input de campo com máscara de hora
+		<br>
+		<label>Selecione a hora</label>
+		<br>
+		<input type="time" name="time"/>
+		
+		<br>
+		Exemplo de input de campo com máscara de data, hora e local
+		<br>
+		<label>Selecione a data e a hora</label>
+		<br>
+		<input type="datetime-local" name="data e hora"/>
+		
+		<br>
+		Exemplo de input de campo com máscara de mês e ano
+		<br>
+		<label>Selecione o mês e o ano</label>
+		<br>
+		<input type="month" name="mês e o ano"/>
+		
+		<br>
+		Exemplo de input de campo de numeração
+		<br>
+		<label>Selecione o números de páginas</label>
+		<br>
+		<input type="number" name="número"/>
+		
+		<br>
+		Exemplo de input de campo de range ou o valor do intervalo
+		<br>
+		<label>Selecione o valor</label>
+		<br>
+		<label>0-------50-------100</label>
+		<br>
+		<input type="range" name="valor do intervalo"/>
+		
+		<br>
+		Exemplo de input de campo de pesquisa
+		<br>
+		<label>Digite a informação</label>
+		<br>
+		<input type="search" name="valor do intervalo"/>
+		<br>
+		<input type="submit" name="Enviar"/><br>
+	</form>
+		
+		<hr>
+		<h3>SELECT</h3>
+	<form action="" method=post>
+		Exemplo de Filtro de opção (por lista)
+		<br>
+		<select name="filtro[]" size="3" multiple="multiple">
+		  <option value="1">Todos as Empresas
+		  <option value="2" selected="selected">Por Empresa
+		  <option value="3">Por Tomador
+		  <option value="4">Por Obra
+		  <option value="5">Por Diretoria
+		  <option value="6">Por Gerencia
+		 </select>
+		  
+		<br>          
+		Exemplo de Filtro de opção (por menu)
+		<br>
+		<select name="filtro">
+		  <option>Todas as Empresas</option>
+		  <option>Por Empresa</option>
+		  <option>Por Tomador</option>
+		  <option>Por Obra</option>
+		  <option>Por Diretoria</option>
+		  <option>Por Gerencia</option>
+	    </select>
+	<input type="submit" name="Enviar"/><br>
+	</form>
+	<form action="" method=post>
+		Exemplo de Text Area
+		<br>
+		<textarea name="Descrição"></textarea>
+		<input type="submit" name="Enviar"/><br>
+	</form>
+	<br>
+	<hr>
+
+	<h3>BUTTON E LABEL</h3>
+	Substituindo o submit por um botão
+	<br>
+	<form action="" method=post>
+		
+		<label for="nome">Nome Completo:</label>
+		<br>
+		<br>
+		<input type="text" name="nome" id="nome"/>
+		<br>
+		<br>
+		<input type="checkbox" id="teste"/>
+		<label for="teste">Declaro que li e aceito os termos de uso.</label>
+		<br>
+		<br>
+		<label>Nome Completo:<br>
+			<input type="text" name="nome"/>
+		</label>
+		<br>
+		<br>
+		
+		<button>Fazer Cadatro</button>
+		
+	</form>
+	<br>
+
+	
+</form>
+	<h2>Entrar</h2>
+	<form>
+	
+	
+	
+	</form>
+
+</body>
+
+</html>
